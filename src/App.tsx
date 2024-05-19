@@ -12,7 +12,7 @@ function App() {
     return (
             <div className="container">
                 <Routes>
-                    <Route index element={<Home/>}/>
+                    <Route path="/" element={<Home/>}/>
                     <Route path="/shop" element={<Shop/>}/>
                     <Route path="/faq" element={<Faq/>}/>
                     <Route path="/wallet" element={<Wallet/>}/>
