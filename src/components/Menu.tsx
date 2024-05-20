@@ -37,7 +37,7 @@ const Menu: FunctionComponent = () => {
                 </div>
                 <div className="col-3">
                     <div className="menu-item">
-                        <Link reloadDocument  to="/wallet" >
+                        <Link to="/wallet" >
                             <div><img src={wallet} alt="wallet img"/></div>
                             <h3>WALLET</h3>
                         </Link>

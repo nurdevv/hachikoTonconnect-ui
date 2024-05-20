@@ -13,6 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             <TonConnectUIProvider
                 manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
                 uiPreferences={{theme: 'SYSTEM'}}
+                actionsConfiguration={{
+                    twaReturnUrl: 'https://t.me/test19141_bot/testanfw811'
+                }}
             >
                 <App/>
             </TonConnectUIProvider>

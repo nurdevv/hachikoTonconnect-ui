@@ -48,7 +48,10 @@ export const SendTx = () => {
         }
     }
 
-    return <button style={{ marginBottom: '20px' }} disabled={!isConnectionRestored || txInProgress} onClick={onClick}>
-        {content}
-    </button>
+    return (
+
+        <button style={{marginBottom: '20px'}} disabled={!isConnectionRestored || txInProgress} onClick={onClick}>
+            {content}
+        </button>
+    )
 }
