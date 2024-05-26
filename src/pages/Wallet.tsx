@@ -17,7 +17,7 @@ const Wallet = () => {
                 <div className="pages-content">
                     <h2 className="pages-title">Wallet</h2>
                     <div className="pouch">
-                        <div className="balance">0.0 ton</div>
+                        <div className="balance">0 ton</div>
                         <div>
                             <TonConnectButton/>
                         </div>
